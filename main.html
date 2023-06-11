@@ -11,7 +11,7 @@
     <script type="text/javascript" src="./script.js">
 </script>
 <h1>Feedback Form</h1>
-    <form action="/submit">
+    <form method="post" action="/submit">
 
         <label for="name">enter your name:</label>
         <input type="text" id="name" required name="name"
@@ -19,7 +19,7 @@
          <br>
          <br>
          <label for="portfolio">enter your portfolio:</label>
-         <input type="text" id="portfolio" name="portfolio" required 
+         <input type="url" id="portfolio" name="portfolio" required 
           placeholder="portfolio">
           <br>
           <br>
